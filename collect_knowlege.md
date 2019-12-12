@@ -462,14 +462,3 @@
 
 - database provisioning 
     + https://www.novatec-gmbh.de/en/blog/grafana-data-source-provisioning/
-
-
-# PROMETHEUS
-- has 2 file config and 1 folder custom rules:
-    + prometheus.yml # config scrape metrics
-    + alertmanager.conf # config alertmanager
-    + rules 
-        + cpu.rule
-        + ram.rule
-        + disk.rule
-        + network.rule
